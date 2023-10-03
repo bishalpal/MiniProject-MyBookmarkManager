@@ -19,9 +19,30 @@ nav {
 
 .coding, .news, .guidance, .govt, .entertainment {
     min-width: 30%;
-    height: 46vh;
+    height: 44vh;
     background-color: bisque;
     border: 1px solid chocolate;
     border-radius: 10px;
     margin: 5px;
+    padding: 5px;
+}
+
+.heading {
+    min-height: 10%;
+    background-color: aquamarine;
+    border-radius: 9px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.links ul li {
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
 }
